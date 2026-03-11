@@ -84,8 +84,30 @@ const activeTab = ref('send')
   border-radius: 10px;
 }
 
+/* 基础样式 */
 .html-content {
-  padding: 0 20px 40px 20px;
+    position: relative;
+    width: 100%;         /* 默认占满父容器 */
+    margin: 0 auto;      /* 居中 */
+    max-width: 978px;    /* 最大宽度限制 */
+    padding: 0 16px;     /* 默认左右内边距 */
+    box-sizing: border-box;
+}
+
+/* 中等屏幕以上 */
+@media (min-width: 960px) {
+    .html-content {
+        padding: 0 32px 128px; /* 上0，左右32，下128 */
+    }
+}
+
+/* 大屏幕以上 */
+@media (min-width: 1280px) {
+    .html-content {
+        min-width: 640px;      /* 最小宽度 */
+        margin: 0 auto;        /* 居中 */
+        /* order 只在 flex 容器有效，如果不用 flex 可以忽略 */
+    }
 }
 
 /* 限制图片最大宽度，防止图片撑爆容器 */
