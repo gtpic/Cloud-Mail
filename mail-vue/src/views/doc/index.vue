@@ -17,7 +17,7 @@
                 <li style="text-align: left;">创建 API Key 并复制<br/><img style="cursor: pointer; border: 1px solid #ccc; margin-bottom: 10px; border-radius: 8px;" src="/image/邮件发送2.png" alt="" /></li>
                 <li style="text-align: left;">设置发送状态回调 <span style="color: #3598db;"><span style="font-size: 14px;"><code style="background-color: #f5f5f5; padding: 5px 5px; border-radius: 4px; font-weight: 600;">https://worker自定义域/api/webhooks</code></span></span><br/><img style="cursor: pointer; border: 1px solid #ccc; margin-bottom: 10px; border-radius: 8px;" src="/image/邮件发送3.png" alt="" /></li>
                 <li style="text-align: left;">选择对应选项<br/><img style="cursor: pointer; border: 1px solid #ccc; margin-bottom: 10px; border-radius: 8px;" src="/image/邮件发送4.png" alt="" /></li>
-                <li style="text-align: left;">系统设置<br/><img style="float: left;" src="/image/邮件发送5.png" alt="" /></li>
+                <li style="text-align: left;">系统设置<br/><img style="cursor: pointer; border: 1px solid #ccc; margin-bottom: 10px; border-radius: 8px;" src="/image/邮件发送5.png" alt="" /></li>
               </ol>
             </div>
           </el-scrollbar>
